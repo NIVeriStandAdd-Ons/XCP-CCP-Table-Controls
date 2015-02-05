@@ -1,0 +1,82 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="11008008">
+	<Property Name="NI.Lib.Description" Type="Str">This XControl was created to connect directly to 1D table CalPoints.  The values of the table may be modified during run time and the current table calculations are displayed.  It contains several options for viewing the data and current position including a 2D plot and highlighting the table values.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!.M!!!*Q(C=T:3`&lt;NR'%)@HD!2Q9Y#MLAXU#L.ODF5!P9,;688\#GIP4'$QAL1OZB5%PI'K^&amp;/Q9C&gt;!B7M^A1$FW_6+0PPO9"='H/8.E@T.H`VW/;2)'7^&amp;@J(P'&gt;MTIXLXW`X_W&amp;GU\.`PL\OO7[`&lt;A\&amp;?)VXPN[5Y\O,M9N&gt;W86O-%!*SA?V_O7_(?:T\/,@N'.M;50UF?T0(T4$QXU]BV)!]Q8;\J-&gt;J%RBT0`5B.%6;]L=FP9GED4'-UR2$UT2@_:MGT..%3$]0)@O&lt;T`[34E$-B5.=X-@_*B20&gt;:`QYS-^RH0_-$[&amp;JX'=RT._NC?(R0EU8^0AZY=`H+Y`RTDH(4DD*T(/YT4(-`8TUG0@RT0\M[QPB$0\Q]*T0MM`H4^-U^D0,$]_08XJ8ZZ05Z9?Y^301TDSNW8V=7:%,LZYPEN`.+SL(]E@]A)0_K0W6ZQX&lt;%X?@C$'A`\;,_X&lt;R=X\G*?0^84S;X__^P@\X.IP9`X3XR3Y\E[/Z@UI&lt;^_J^QO\`J\X]ZND^`S4B]B+**_@HRUT,'%KW@8M[)\O[)\O[)ZO[):O[):O[);?U".[1E`I#4WB+\KC+\KC+\KCFQ.&gt;U!6&gt;U.E6:X*H)K?I5]!*"E7=0Y@(Y8&amp;Y("ZOR?&amp;R?"Q?B]@B)51=(I@(Y8&amp;Y("\3R/&amp;R?"Q?B]@BI61B]8+AQ_0Q5&amp;Y-(I0(Y$&amp;Y$"[G&amp;)0(!$!G-QI&lt;2=!1QWF='$Q'D]($J2A]"I`"9`!90,D&amp;Y$&amp;Y$"[$R_!BJ?S+&amp;:J]I-.$'5HQ*(A30!G?"!_F*='4Y%HQ*(A30%QH#:Y%4Q)C-7'C/!C33%I%*'Y30!E?4J,A3@!E?")]#2Z=Z1GFMD/:*B`I]#A]#I`#I`!I0*11B5@B58A5(I7(MK,Q+$Q+D]+D]$#6+$Q+D]+DA#C4-LUIR:2%*5A2&amp;"Z_J6OU0#5L*&amp;I/E&gt;K]5JN3;L.*&lt;3+JT3(VI5N^G&amp;)@EN4.F\KJ5D&gt;,[C:)8:R5;+EQ5C?2GJQ$Z:(`?_Q/O]5'\!;\QC[R#[T.K4]Y]0(R5?\P\_8O\EZO&lt;W^F'!;ZO&lt;G2K[MLO&lt;S]F)O,#_($_0IF_IVD';O8\^+/[S0\^7'V?^&gt;Q0L3(YTDMTY?`6LM&gt;^M_H0X&lt;^R^^X@X^=\4Z]_P&gt;EX1.&lt;PEP`BW_DP*(F`,J(`Q(]#HBH!!!!!!</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="Content" Type="Folder">
+		<Item Name="Save TBL 1D.vi" Type="Method VI" URL="../Save TBL 1D.vi"/>
+		<Item Name="Data TBL1D.ctl" Type="Ability VI" URL="../Data TBL1D.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+		</Item>
+		<Item Name="State TBL1D.ctl" Type="Ability VI" URL="../State TBL1D.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">State</Property>
+		</Item>
+		<Item Name="Facade TBL1D.vi" Type="Ability VI" URL="../Facade TBL1D.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+		</Item>
+		<Item Name="Init TBL1D.vi" Type="Ability VI" URL="../Init TBL1D.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+		</Item>
+		<Item Name="Y Value" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Y Value</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Value</Property>
+			<Item Name="Y Value Write.vi" Type="Property VI" URL="../Y Value Write.vi"/>
+		</Item>
+		<Item Name="Find Changed Table Value TBL1D.vi" Type="VI" URL="../Find Changed Table Value TBL1D.vi"/>
+		<Item Name="Format For Display TBL1D.vi" Type="VI" URL="../Format For Display TBL1D.vi"/>
+		<Item Name="Interpolate and Highlight TBL1D.vi" Type="VI" URL="../Interpolate and Highlight TBL1D.vi"/>
+		<Item Name="Plot TBL1D.vit" Type="VI" URL="../Plot TBL1D.vit"/>
+		<Item Name="new resize Tbl 1D.vi" Type="VI" URL="../new resize Tbl 1D.vi"/>
+		<Item Name="Relative Scale TBL1D.vi" Type="VI" URL="../Relative Scale TBL1D.vi"/>
+		<Item Name="Message Window.vi" Type="VI" URL="../Message Window.vi"/>
+		<Item Name="Get and Check format string.vi" Type="VI" URL="../Get and Check format string.vi"/>
+		<Item Name="Get and Check Value.vi" Type="VI" URL="../Get and Check Value.vi"/>
+		<Item Name="Monotonic.vi" Type="VI" URL="../Monotonic.vi"/>
+		<Item Name="Space Array Evenly.vi" Type="VI" URL="../Space Array Evenly.vi"/>
+		<Item Name="Resize Control TBL1D.vi" Type="VI" URL="../Resize Control TBL1D.vi"/>
+		<Item Name="Straighten.vi" Type="VI" URL="../Straighten.vi"/>
+		<Item Name="X Value" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X Value</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Value</Property>
+			<Item Name="X Value Write Property.vi" Type="Property VI" URL="../X Value Write Property.vi"/>
+			<Item Name="X Value Read.vi" Type="Property VI" URL="../X Value Read.vi"/>
+		</Item>
+		<Item Name="SetLimits" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">SetLimits</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">SetLimits</Property>
+			<Item Name="SetLimits Write TBL1D.vi" Type="Property VI" URL="../SetLimits Write TBL1D.vi"/>
+		</Item>
+		<Item Name="Limits TBL1D.ctl" Type="VI" URL="../Limits TBL1D.ctl"/>
+		<Item Name="Valid Number.vi" Type="VI" URL="../Valid Number.vi"/>
+		<Item Name="CheckLimits TBL1D.vi" Type="VI" URL="../CheckLimits TBL1D.vi"/>
+		<Item Name="CheckGrad.vi" Type="VI" URL="../CheckGrad.vi"/>
+		<Item Name="Limits TBL1D.vi" Type="VI" URL="../Limits TBL1D.vi"/>
+		<Item Name="Valid Numbers 2d Array.vi" Type="VI" URL="../Valid Numbers 2d Array.vi"/>
+		<Item Name="Insert 1d Table.vi" Type="VI" URL="../Insert 1d Table.vi"/>
+		<Item Name="NIVS Sys Def Root" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Property</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">NIVS Sys Def Root</Property>
+			<Item Name="NIVS System Definition Root Write.vi" Type="Property VI" URL="../NIVS System Definition Root Write.vi"/>
+			<Item Name="NIVS Sys Def Root Read.vi" Type="Property VI" URL="../NIVS Sys Def Root Read.vi"/>
+		</Item>
+		<Item Name="Control Links" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Selected Parameter</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Control Links</Property>
+			<Item Name="Control Links 1d Read.vi" Type="Property VI" URL="../Control Links 1d Read.vi"/>
+			<Item Name="Control Links 1d Write.vi" Type="Property VI" URL="../Control Links 1d Write.vi"/>
+		</Item>
+		<Item Name="Control Error" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Control Error</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Control Error</Property>
+			<Item Name="ControlError Read 1d.vi" Type="Property VI" URL="../ControlError Read 1d.vi"/>
+			<Item Name="ControlError Write 1d.vi" Type="Property VI" URL="../ControlError Write 1d.vi"/>
+		</Item>
+	</Item>
+</XControl>

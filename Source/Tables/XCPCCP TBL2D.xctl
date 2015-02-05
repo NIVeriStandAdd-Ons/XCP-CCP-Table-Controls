@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="11008008">
+	<Property Name="NI.Lib.Description" Type="Str">This XControl was created to connect directly to 2D table CalPoints.  The values of the table may be modified during run time and the current table calculations are displayed.  It contains several options for viewing the data and current position including a 3D plot and highlighting the table values.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!.R!!!*Q(C=T:3R&lt;O.'%):(Q2W1EKI%&gt;R=$?9+B'R&amp;8(/"8=,OON+`AFO%&amp;"SJ)[W*?Q?!&lt;O,J_#F&lt;M$,BQ\3=QY(S\8$O_C%+O/#":;C4RHZX:&lt;W?(&amp;-HD:Z&amp;X]DVD&gt;W15\X[XXR][MZ&lt;]_`VFUT3&lt;T@L.W'S1,P?\H"RX&gt;D;B74@./BN4G*!3\0&lt;T`&lt;K@BKE,UXI^B(7:50QZ?DO&amp;&lt;&gt;`TX9VV83;E"8;\/4S-WZIR&gt;7.8VV77ZPB&gt;$K]#95/IBX%-&gt;666``"864W.)V/[K;_4P`L&lt;H]/:%&amp;,C/MTO1X^6:U^R,`F$#A`BG(]9JP!U$N.QR0]5RGZYKM/UT%?#-5R&gt;]N@,]7-)5[L!ML_&lt;BC&amp;-QTC&amp;I`PP1L)D^5H\H]=C@UAD&lt;X]ZPB`()3&amp;1A[&gt;P`@0Z6(HL)&gt;7ALQ`]4-B&lt;:[1;@(/_=X^5\+M&lt;C/`4"N`U2_GP-'UJ$?NT$=/&lt;`NL0\&gt;O%\6EI*?DIZ.@_@/XPM^4;,W0TUN]EO'Q7R`R]Z+&gt;P[@H#,L`H_@T8U4\`RU.E*:*_HZ]&gt;-SRC+MHV\/C/\OC/\OC/&lt;OC'&lt;OC'&lt;OC'(N%D?E30["%^ICO[ICO[ICO[IO=,8&gt;!&amp;8&gt;#JCL/YMZ#4V%HA4!:&amp;H#_(R_&amp;R?"Q?&lt;M8B=8A=(I@(Y7'+/$Q/D]0D]$A]B)H$Y`!Y0![0QU/K4/,Z1I@(Y3'^'$Q'D]&amp;D]"A],#E'DQ&amp;A,'9E.J+!)9&lt;4_'0Q'$Q'$X`&amp;Y$&amp;Y$"[$R_$",1;0Q70Q'$Q'$S'Z+J:JUI5/$WEEQB0BC@"%?#)]J*9)4Y1HQB0BC@#QH%2Y)DQ2C-C#E?1A3#1I-C&amp;S%_'*]0!D%:Y)4Y1HQB0BQ:60+/&lt;+**JUI=/D]#A]#I`#I`#11B1?B5@B58A5(N++QK0Q+$Q+D],$5K,Q+$Q+DQ+C,-LSIC24!J6*CK$Q]-H&gt;IPG5,*.IPE2+]UJJ3CH.*K7*J$3(F%/8=JB3$EF+];5565KRJ"2"SO;E1%O"E&lt;+)F/!U52\ZPM.OM2OMR[[Q#_Q=/]87+@1(4XR]@*3\OTOZP&lt;W6GZM&lt;[@N?LK[OZ/,C1M\0T_8U^&amp;2Y-&lt;[_C4ZQT70V]FZK_8^A*`?L^N&gt;KV&lt;\(4L"@M)`XB`/QT`?`L^I7_`0BN\;\`N4_=&lt;VKPTR]8=T\RO&lt;XUP`BX3A`S@T\7K/`!#1]@EE!!!!!</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="Content" Type="Folder">
+		<Item Name="Save TBL 2D.vi" Type="Method VI" URL="../Save TBL 2D.vi"/>
+		<Item Name="Data TBL2D.ctl" Type="Ability VI" URL="../Data TBL2D.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+		</Item>
+		<Item Name="Facade TBL2D.vi" Type="Ability VI" URL="../Facade TBL2D.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+		</Item>
+		<Item Name="Init TBL2D.vi" Type="Ability VI" URL="../Init TBL2D.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+		</Item>
+		<Item Name="Find Changed Table Value TBL2D.vi" Type="VI" URL="../Find Changed Table Value TBL2D.vi"/>
+		<Item Name="Set Z Value" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Set Z Value</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Set Z Value</Property>
+			<Item Name="Set Z Value Write.vi" Type="Property VI" URL="../Set Z Value Write.vi"/>
+		</Item>
+		<Item Name="Resize Control TBL2D.vi" Type="VI" URL="../Resize Control TBL2D.vi"/>
+		<Item Name="Format For Display TBL2D.vi" Type="VI" URL="../Format For Display TBL2D.vi"/>
+		<Item Name="Interpolate and Highlight TBL2D.vi" Type="VI" URL="../Interpolate and Highlight TBL2D.vi"/>
+		<Item Name="Plot TBL2D.vit" Type="VI" URL="../Plot TBL2D.vit"/>
+		<Item Name="Relative Scale TBL2D.vi" Type="VI" URL="../Relative Scale TBL2D.vi"/>
+		<Item Name="Insert 2d Table.vi" Type="VI" URL="../Insert 2d Table.vi"/>
+		<Item Name="State TBL2D.ctl" Type="Ability VI" URL="../State TBL2D.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">State</Property>
+		</Item>
+		<Item Name="Selection TBL2D.vi" Type="VI" URL="../Selection TBL2D.vi"/>
+		<Item Name="X&amp;Y Value" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X&amp;Y Value</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X&amp;Y Value</Property>
+			<Item Name="X&amp;Y Value Write Property.vi" Type="Property VI" URL="../X&amp;Y Value Write Property.vi"/>
+		</Item>
+		<Item Name="SetLimits" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">SetLimits</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">SetLimits</Property>
+			<Item Name="SetLimits Write TBL2D.vi" Type="Property VI" URL="../SetLimits Write TBL2D.vi"/>
+		</Item>
+		<Item Name="Limits TBL2D.ctl" Type="VI" URL="../Limits TBL2D.ctl"/>
+		<Item Name="CheckLimits TBL2D.vi" Type="VI" URL="../CheckLimits TBL2D.vi"/>
+		<Item Name="Limits TBL2D.vi" Type="VI" URL="../Limits TBL2D.vi"/>
+		<Item Name="NIVS System Definition Root" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">NIVS System Definition Root</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">NIVS System Definition Root</Property>
+			<Item Name="2D NIVS System Definition Root Write.vi" Type="Property VI" URL="../2D NIVS System Definition Root Write.vi"/>
+			<Item Name="NIVS System Definition Root Read.vi" Type="Property VI" URL="../NIVS System Definition Root Read.vi"/>
+		</Item>
+		<Item Name="Control Links" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Selected Parameter 2D</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Control Links</Property>
+			<Item Name="Control Links Read.vi" Type="Property VI" URL="../Control Links Read.vi"/>
+			<Item Name="Control Links Write.vi" Type="Property VI" URL="../Control Links Write.vi"/>
+		</Item>
+		<Item Name="ControlError" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ControlError</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ControlError</Property>
+			<Item Name="ControlError Read 2d.vi" Type="Property VI" URL="../ControlError Read 2d.vi"/>
+			<Item Name="ControlError Write 2d.vi" Type="Property VI" URL="../ControlError Write 2d.vi"/>
+		</Item>
+	</Item>
+</XControl>
